@@ -1,0 +1,68 @@
+.shop-basket-button {
+    /* float: right; */
+    cursor: pointer;
+    transition: color, 500ms ease;
+}
+
+.shop-basket-button:hover,
+.shop-basket-button.active {
+    color: #dc3d3d;
+    transform: scale(1.5);
+}
+
+.shop-basket {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 350px;
+    background: #fafafa;
+    -webkit-box-shadow: 4px 5px 15px -7px #606060;
+    box-shadow: 4px 5px 15px -7px #606060;
+    z-index: 1000;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.shop-basket .empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.shop-basket .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.shop-basket .item img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.shop-basket .item p {
+    color: #797979;
+    font-weight: 600;
+}
+
+.shop-basket .item .delete-icon {
+    color: #797979;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+.shop-basket .item .delete-icon:hover {
+    color: #d83030;
+    transform: scale(1.5);
+}
+
+.shop-basket .sum {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

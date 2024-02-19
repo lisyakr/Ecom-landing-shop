@@ -1,0 +1,22 @@
+.item_image {
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+.item:hover .item_image {
+    transform: scale(1.05);
+}
+
+.item_content {
+    padding: 10px;
+}
+
+.item_content h2 {
+    padding-top: 10px;
+}
+
+.item_content p {
+    padding: 15px 0 20px;
+}

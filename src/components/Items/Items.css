@@ -1,0 +1,20 @@
+main .item {
+    width: 100%;
+    margin-bottom: 50px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main .item {
+        width: 30%;
+    }
+}

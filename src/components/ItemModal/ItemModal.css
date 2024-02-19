@@ -1,0 +1,30 @@
+.full-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.777);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.full-item > div {
+    width: 300px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.full-item h2,
+.full-item p {
+    padding: 25px 0 15px;
+}
+
+@media (min-width: 1200px) {
+    .full-item > div {
+        width: 600px;
+    }
+}
