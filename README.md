@@ -14,15 +14,11 @@
 ## Stack
 - HTML5;
 - CSS3:
- - Flexbox;
- - Adaptive UI;
- - Media Queries;
+  - Flexbox;
+  - Adaptive UI;
+  - Media Queries;
 - Вёрстка по макету в Figma;
-- JavaScript:
- - Promise;
- - VanillaJS;
+- JavaScript;
 - React;
-- Webpack
+- Webpack;
 - Git.
-
-
